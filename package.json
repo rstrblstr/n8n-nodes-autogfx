@@ -4,19 +4,18 @@
   "description": "Custom n8n node for autoGfx.",
   "keywords": [
     "n8n-community-node-package",
-    "autogfx",
-    "autogfx",
-    "whatsapp"
+    "autograph x",
+    "autogfx"
   ],
   "license": "MIT",
   "homepage": "https://github.com/leandcesar/n8n-nodes-autogfx",
   "author": {
-    "name": "Leandro César",
-    "url": "https://github.com/leandcesar"
+    "name": "ccroww",
+    "url": "https://github.com/rstrblstr"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leandcesar/n8n-nodes-autogfx.git"
+    "url": "git+https://github.com/rstrblstr/n8n-nodes-autogfx.git"
   },
   "main": "index.js",
   "scripts": {
@@ -38,6 +37,10 @@
     "nodes": [
       "dist/nodes/Autogfx/Autogfx.node.js"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "~5.45",
